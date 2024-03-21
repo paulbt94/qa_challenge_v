@@ -1,0 +1,72 @@
+Q Store test scenarios:
+
+Search Test Suite:
+
+Positive test scenarios
+1. Search with valid search criteria
+    Expect to get proper results for given search criteria
+2. Search with numbers in the search criteria
+    Expect search functionality can handle numbers in the search criteria
+3. Search with special characters in the search criteria
+    Expect search functionality can handle special characters in the search criteria
+4. Search with partial search criteria
+    Expect that user can search with partial search criteria and get matching results
+
+Negative test scenarios
+1. Search with invalid search criteria
+    Expect a message to the user that given search criteria has no matching results from DB
+2. Search with empty search criteria
+    Expect a message that search criteria is empty
+3. Search with unsopported characters in the search criteria
+    Expect a message for unsopported characters for given search criteria 
+4. Search with long search criteria
+    Expect a message of search criteria is too long/unsupported
+
+Non-functional test scenarios:
+1. Search performance
+2. Search security
+3. Search experience/usability
+
+Side Bar Test Suite
+1. Verify navigation or load of proper page when clicking any of the sidebar menu options
+2. Verify button highlight when clicking an option 
+
+Messages and Notifications Test Suite
+1. Verify pending message/notification dot when there are unread entries
+2. Verify pending message/notification dot disappears as user reads them or marked them as reads
+3. Verify proper window pop up when clicking message/notification icon
+
+New Product Test Suite
+1. Verify navigation when clicking "New Product" button
+
+Dashboard Test Suite
+
+Dashboard Overview:
+1. Verify Income/Customer data displays correctly (modify test data to see different scenarios)
+2. Verify Income/Customer navigation (if exist) when clicking the button
+3. Collapse/Expand Income/Customer data when clicking All Time option
+
+Top Client:
+1. Verify client data and photos display correctly
+2. Modify top client data to see if they get updated
+3. Verify page navigation when clicking see all option
+4. Verify page navigation when clicking a client photo
+
+Comment and Message:
+1. Verify page navigation when clicking see all option
+2. Verify contents display correctly
+3. Verify page navigation when clicking client
+4. Verify timer runs properly
+5. Verify Reply option when clicking it
+
+Popular Product:
+1. Verify page navigation when clicking all time option
+2. Verify page navigation when clicking a Product
+3. Verify product info populates correctly
+4. Verify products updates on name, description, price tag and rating
+
+Statistic:
+1. Verify chart info populates correctly (and modify to see change updates)
+2. Verify page navigation when clicking this month option
+
+
